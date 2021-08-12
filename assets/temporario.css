@@ -7,7 +7,52 @@ Defaut
     font-family: 'Montserrat', sans-serif !important;
     box-sizing: border-box;
 }
- 
+
+@font-face {
+    font-family: BlackItalic;
+    src: url(../assets/@fontes/Montserrat-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: BoldItalic;
+    src: url(../assets/@fontes/Montserrat-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: ExtraBoldItalic;
+    src: url(../assets/@fontes/Montserrat-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: ExtraItalic;
+    src: url(../assets/@fontes/Montserrat-ExtraLightItalic.ttf);
+}
+
+@font-face {
+    font-family: Italic;
+    src: url(../assets/@fontes/Montserrat-Italic.ttf);
+}
+
+@font-face {
+    font-family: LightItalic;
+    src: url(../assets/@fontes/Montserrat-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: MediumItalic;
+    src: url(../assets/@fontes/Montserrat-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: SemiBoldItalic;
+    src: url(../assets/@fontes/Montserrat-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: ThinItalic;
+    src: url(../assets/@fontes/Montserrat-ThinItalic.ttf);
+}
+
 /***************************
 Estilização do body
 */
