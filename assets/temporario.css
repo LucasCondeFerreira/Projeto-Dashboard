@@ -1,0 +1,575 @@
+/***************************
+Defaut
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***************************
+Fontes italic ttf
+*/
+
+
+@font-face {
+    font-family: "BlackItalic";
+    src: url(../assets/@fontes/Montserrat-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: "BoldItalic";
+    src: url(../assets/@fontes/Montserrat-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "ExtraBoldItalic";
+    src: url(../assets/@fontes/Montserrat-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "ExtraItalic";
+    src: url(../assets/@fontes/Montserrat-ExtraLightItalic.ttf);
+}
+
+@font-face {
+    font-family: "Italic";
+    src: url(../assets/@fontes/Montserrat-Italic.ttf);
+}
+
+@font-face {
+    font-family: "LightItalic";
+    src: url(../assets/@fontes/Montserrat-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: "MediumItalic";
+    src: url(../assets/@fontes/Montserrat-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: "SemiBoldItalic";
+    src: url(../assets/@fontes/Montserrat-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "ThinItalic";
+    src: url(../assets/@fontes/Montserrat-ThinItalic.ttf);
+}
+
+
+/***************************
+Fontes otf
+*/
+
+@font-face {
+    font-family: "Black";
+    src: url(../assets/@fontes/Montserrat-Black.otf);
+}
+
+@font-face {
+    font-family: "Bold";
+    src: url(../assets/@fontes/Montserrat-Bold.otf);
+}
+
+@font-face {
+    font-family: "ExtraBold";
+    src: url(../assets/@fontes/Montserrat-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: "ExtraLight";
+    src: url(../assets/@fontes/Montserrat-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: "Medium-1";
+    src: url(../assets/@fontes/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Regular-1";
+    src: url(../assets/@fontes/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Light";
+    src: url(../assets/@fontes/Montserrat-Light.otf);
+}
+
+
+@font-face {
+    font-family: "Semibold";
+    src: url(../assets/@fontes/Montserrat-SemiBold.otf);
+}
+
+@font-face {
+    font-family: "Thin";
+    src: url(../assets/@fontes/Montserrat-Thin.otf);
+}
+
+
+/***************************
+Estilização do body
+*/
+#body {
+    background: rgb(242,73,118);
+    background: linear-gradient(90deg, rgba(242,73,118,1) 0%, rgba(242,113,101,1) 49%, rgba(242,144,87,1) 100%);
+}
+
+
+/***************************
+Estilização geral
+*/
+
+.sem-borda {
+    border: none !important;
+}
+
+
+
+.fonte-menor {
+    font-size: 12px;
+}
+
+/***************************
+Estilização do container
+*/
+
+.tamanho-da-div {
+    background: #fdf8f5;
+    margin: 5% 0;
+    width: 80% !important;
+    height: 40% !important;
+    border-radius: 12px !important;
+    padding-right: 20px !important;
+    box-shadow: 0px 0px 25px -15px #000;
+    flex-direction: column !important;
+    text-align: left !important;
+    justify-content: space-around !important;
+}
+ 
+.sem-espaçamento {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.tamanho-direita {
+    width: 100% !important;
+}
+
+.posicionamento-1 {
+    top: 0px !important;
+}
+
+.posicionamento-2 {
+    top: 0px !important;
+}
+
+.tamanho-botoes {
+    width: 100% !important;
+}
+
+
+/***************************
+Estilização do menu de botões
+*/
+
+.texto-esquerda {
+    text-align: left !important;
+    padding-left: 5% !important;
+}
+
+.menu-botoes-1 {
+    font-size: 14px !important;
+    font-weight: 800 !important;
+    font-family: Medium-1 !important;
+}
+
+.menu-botoes-2 {
+    font-size: 14.34px !important;
+    color: #989898 !important;
+    font-family: Light !important;
+}
+
+.distancia-esquerda {
+    padding-left: 5% !important;
+}
+
+.distancia-esquerda-2 {
+    padding-bottom: 5% !important;
+    padding-left: 5% !important;
+}
+
+.icone-separado {
+    margin-right: 20px !important;
+}
+
+.distanciamento {
+    padding: 5.5% 3.4% !important;
+}
+
+.distanciamento-2 {
+    padding: 5% 0% !important;
+    font-size: 14px !important;
+}
+
+.borda-de-baixo {
+    border-radius: 0 0 0 12px !important;
+}
+
+
+.ajuste-botoes-2 {
+    margin-top: 15% !important;
+    margin-bottom: 4% !important;
+    color: #ffa759 !important;
+}
+
+.ajuste-botoes-2:focus {
+    color: rgb(153, 153, 153) !important;
+    box-shadow: none !important;
+}
+
+.ajuste-botoes-1:hover {
+    background: rgba(238, 238, 238, 0.5) !important; 
+    border-radius: 31px 0 0 31px;
+    box-shadow: none !important;
+}
+
+.ajuste-botoes-1:focus {
+    background: #ffe8f2;
+    border-radius: 31px 0 0 31px;
+    border-right: 5px solid rgba(242,73,118,1);
+    box-shadow: none !important;
+}
+
+
+.sombra-botoes {
+    box-shadow: inset 10px 0px 15px -20px #000 !important;
+}
+
+.color-cinza {
+    background: #f2f2f2 !important;
+}
+
+ 
+
+/***************************
+Estilização de título e tags
+*/
+
+.texto-branco {
+    color: #ffff !important;
+}
+
+.titulo-cabecalho {
+    font-size: 19px !important;
+    font-weight: 600 !important;
+    font-family: Medium-1 !important;
+}
+
+.subtitulo-cabecalho {
+    color: #989898 !important;
+    font-size: 13px !important;
+    font-weight: 800 !important;
+    font-family: Thin !important;
+}
+
+.posicionamento-titulo {
+    padding-top: 4% !important;
+    padding-bottom: 2% !important;
+    padding-left: 4% !important;
+}
+
+.posicionamento-tags {
+    padding-top: 7% !important;
+    padding-bottom: 0% !important;
+    padding-left: 29% !important;
+    padding-right: 0% !important;
+}
+
+.texto-tags {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    font-family: Medium-1 !important;
+}
+
+.posicionamento-botao {
+    padding-top: 7% !important;
+    padding-bottom: 0% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+
+.botao-ordenar {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    padding-left: 8px !important;
+    padding-right: 2px !important;
+}
+
+.texto-ordenar {
+    font-size: 12px !important;
+    font-family: Semibold !important;
+    padding-top: 0 !important;
+    padding-right: 6px !important;
+}
+
+.color-rosa {
+    background: rgba(242,73,118,1) !important;
+}
+
+.botao-ordenar-2 {
+    height: 30px !important;
+    padding: 0px 8px 0px 10px !important;
+    box-shadow: none !important;
+}
+
+.color-link-2 {
+    background: rgba(238, 125, 115, 0.1) !important;
+    padding: 2px !important;
+}
+
+.link-2:hover {
+    background: #ffa759 !important;
+    border-radius: 15px !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.link-2:focus {
+    background: #ffff !important;
+    border-radius: 15px !important;
+    color: #ffa759 !important;
+    border: none !important;
+    box-shadow: 0 0 1px 0px #989898 !important;
+}
+
+.item-3 {
+    background: #f2f2f2 !important;
+    z-index: 4 !important;
+}
+
+
+
+.bordas-redondas-3 {
+    border-radius: 65px 0 0 65px !important;
+}
+
+.bordas-redondas-4 {
+    border-radius: 0 65px 65px 0 !important;
+}
+
+
+
+/***************************
+Estilização da lista
+*/
+
+.lista-flush-1 {
+    padding: 2% 0 2% 1% !important;
+    border-bottom: 1px solid #f8f8f8 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.lista-flush-2 {
+    padding: 0 0 2% 1% !important;
+    border-bottom: 1px solid #f8f8f8 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.lista-flush-3 {
+    padding: 2% 0 0 1% !important;
+    border-bottom: 1px solid #f8f8f8 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.lista-fonte-1 {
+    font-size: 14px !important;
+    font-family: Medium-1 !important;
+    font-weight: 600 !important;
+}
+
+.lista-fonte-2 {
+    color: #989898 !important;
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    font-family: Light !important;
+}
+
+.color-cinza-2:hover {
+    background: rgba(242,73,118,0.03) !important;
+    border-radius: 20px !important;
+}
+
+.texto-colorido-1 {
+    color: #ffa759 !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    font-family: Light !important;
+}
+
+.texto-colorido-2 {
+    color: rgba(242,73,118,1) !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    font-family: Light !important;
+}
+
+.texto-colorido-3 {
+    color: #989898 !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    font-family: Light !important;
+}
+
+.color-cinza-2 {
+    background: #fdf8f5 !important;
+}
+
+.texto-caixinha-1 {    
+    font-size: 17px !important;
+    font-weight: 500 !important;
+    font-family: Medium-1 !important;
+}
+
+.texto-caixinha-2 {
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    font-family: Light !important;
+}
+
+.caixinha {
+    background: #ff416e !important;
+    color: #ffff !important;
+    width: 55px !important;
+    height: 55px !important;
+    padding: 7px 12px !important;
+    border-radius: 17px !important;
+    display: block !important;
+    text-align: center !important;
+    justify-content: space-around !important;
+}
+
+.caixinha-cancelado {
+    background: #989898 !important;
+    color: #ffff !important;
+    font-size: 14px !important;
+    width: 55px !important;
+    height: 55px !important;
+    padding: 7px 12px !important;
+    border-radius: 17px !important;
+    display: block !important;
+    text-align: center !important;
+    justify-content: space-around !important;
+}
+
+.posicionamento-item {
+    padding-top: 0.5% !important;
+    padding-bottom: 0% !important;
+    padding-left: 3.6% !important;
+    padding-right: 0% !important;
+}
+
+
+.posicionamento-textos {
+    padding-top: 1.5% !important;
+    padding-bottom: 0% !important;
+    padding-left: 3.6% !important;
+    padding-right: 0% !important;
+}
+
+.posicionamento-avalicao {
+    padding-top: 1.5% !important;
+    padding-bottom: 0% !important;
+    padding-left: 2.2% !important;
+    padding-right: 0% !important;
+}
+
+.posicionamento-texto-meio {
+    padding-top: 1.5% !important;
+    padding-bottom: 0% !important;
+    padding-left: 1.5% !important;
+    padding-right: 0% !important;
+}
+
+.posicionamento-texto-direita {
+    padding-top: 1.5% !important;
+    padding-bottom: 0% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+
+/***************************
+Estilização de links
+*/
+
+
+.texto-light {
+    font-size: 12px !important;
+    font-family: Light !important;
+}
+
+.texto-medium {
+    font-size: 12px !important;
+    font-family: Medium-1 !important;
+}
+
+.posicionamento-rodape {
+    padding-top: 3.5% !important;
+    padding-bottom: 2% !important;
+    padding-left: 3% !important;
+    padding-right: 2% !important;
+}
+
+.color-branco {
+    color: #000 !important;
+}
+
+.item-1 {
+    background: rgba(242,73,118,0.03) !important;
+}
+
+.item-2 {
+    background: rgba(242,73,118,0.03) !important;
+}
+
+
+.bordas-redondas-1 {
+    border-radius: 15px 0 0 15px !important;
+}
+
+.bordas-redondas-2 {
+    border-radius: 0 15px 15px 0 !important;
+}
+
+
+.link-1 {
+    background: rgba(242,73,118,0.03) !important;
+    padding: 7px 13px !important;
+    font-size: 10px !important;
+    font-family: Medium-1 !important;
+}
+
+.link-1:hover {
+    background: rgba(242,144,87,0.4) !important;
+    border-radius: 10px !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.link-1:focus {
+    background: rgba(242,73,118,1) !important;
+    border-radius: 11px;
+    color: #ffff !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
