@@ -1,0 +1,4 @@
+git clone git@bitbucket.org:BluelogicTec/web-amparo.git
+usuário: everton@bluelogic.com.br
+senha: DX@4as5W6c$
+
